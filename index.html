@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Age | Nutrición Inteligente para una Vida Fuerte</title>
+    
+    <!-- Meta Tags para SEO -->
+    <meta name="description" content="Suplementos nutricionales premium diseñados en Chile para adultos y adultos mayores. Mantén tu masa muscular, energía, fuerza y vive un envejecimiento activo con New Age Proteína y Creatina Micronizada.">
+    <meta name="keywords" content="New Age suplementos, proteina adulto mayor chile, creatina adulto mayor, envejecimiento activo, masa muscular adultos, sarcopenia chile, nutricion inteligente">
+    <meta name="author" content="New Age Nutrition">
+    
+    <!-- Open Graph (Facebook / WhatsApp) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="New Age | Nutrición Inteligente para una Vida Fuerte">
+    <meta property="og:description" content="Proteínas y suplementos premium clínicamente formulados para un envejecimiento activo, mayor fuerza y vitalidad en Chile.">
+    <meta property="og:image" content="assets/images/hero_active_seniors.png">
+    <meta property="og:url" content="https://www.newagefood.cl">
+
+    <!-- Hojas de Estilo -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- ----------------------------------------------------------------------
+         HEADER / NAVEGACIÓN
+         ---------------------------------------------------------------------- -->
+    <header class="header" id="header">
+        <div class="container">
+            <!-- Logo Premium -->
+            <a href="#" class="logo" id="logo-link">
+                NEW AGE<span>.</span>
+                <span class="logo-dot"></span>
+            </a>
+
+            <!-- Navegación de Escritorio -->
+            <nav class="nav-wrapper">
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li><a href="#productos" class="nav-link">Productos</a></li>
+                    <li><a href="#nosotros" class="nav-link">¿Por qué New Age?</a></li>
+                    <li><a href="#testimonios" class="nav-link">Testimonios</a></li>
+                    <li><a href="#educacion" class="nav-link">Educación</a></li>
+                </ul>
+            </nav>
+
+            <!-- Acciones del Header -->
+            <div class="nav-actions">
+                <!-- Trigger de Carrito -->
+                <button class="cart-trigger" id="cart-trigger" aria-label="Abrir Carrito">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="9" cy="21" r="1"></circle>
+                        <circle cx="20" cy="21" r="1"></circle>
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                    </svg>
+                    <span class="cart-count" id="cart-count">0</span>
+                </button>
+
+                <!-- Botón de Menú Móvil -->
+                <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Menú Móvil">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ----------------------------------------------------------------------
+         HERO SECTION (PORTADA PRINCIPAL)
+         ---------------------------------------------------------------------- -->
+    <section class="hero" id="inicio">
+        <div class="container">
+            <div class="hero-grid">
+                
+                <!-- Contenido de Portada -->
+                <div class="hero-content reveal">
+                    <div class="hero-tag">
+                        <span class="badge-blue">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                            Fórmula Clínicamente Validada
+                        </span>
+                    </div>
+                    <h1 class="hero-title">Nutrición inteligente para una vida más fuerte</h1>
+                    <p class="hero-subtext">Proteínas y suplementos premium de máxima absorción diseñados especialmente para adultos que quieren mantenerse activos, fuertes y llenos de energía vital.</p>
+                    
+                    <div class="hero-btns">
+                        <a href="#productos" class="btn btn-primary-blue">Comprar ahora</a>
+                        <a href="#nosotros" class="btn btn-secondary">Conocer la ciencia</a>
+                    </div>
+
+                    <!-- Pilares de Confianza -->
+                    <div class="hero-trust-badges">
+                        <div class="trust-badge">
+                            <h4>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-blue-primary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                Fórmula científica
+                            </h4>
+                            <p>Ingredientes certificados</p>
+                        </div>
+                        <div class="trust-badge">
+                            <h4>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-blue-primary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                Digestión Fácil
+                            </h4>
+                            <p>Cero molestias estomacales</p>
+                        </div>
+                        <div class="trust-badge">
+                            <h4>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-blue-primary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                Despacho a todo Chile
+                            </h4>
+                            <p>Envíos rápidos a regiones</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Imagen Aspiracional -->
+                <div class="hero-image-wrapper reveal">
+                    <div class="hero-image-card">
+                        <img src="assets/images/hero_active_seniors.png" alt="Adultos mayores activos entrenando y sonriendo al aire libre" width="550" height="420">
+                    </div>
+                    
+                    <!-- Globo Flotante de Estadísticas 1 -->
+                    <div class="floating-stat floating-stat-1 glass">
+                        <div class="stat-icon" style="background-color: var(--color-blue-light); color: var(--color-blue-primary);">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                        </div>
+                        <div class="stat-text">
+                            <h5>+92%</h5>
+                            <p>Mantención Muscular</p>
+                        </div>
+                    </div>
+
+                    <!-- Globo Flotante de Estadísticas 2 -->
+                    <div class="floating-stat floating-stat-2 glass">
+                        <div class="stat-icon" style="background-color: var(--color-green-light); color: var(--color-green-primary);">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                        </div>
+                        <div class="stat-text">
+                            <h5>100%</h5>
+                            <p>Energía Celular</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------------------------------------------------------------------
+         SECCIÓN DE PRODUCTOS (CATÁLOGO INTERACTIVO)
+         ---------------------------------------------------------------------- -->
+    <section class="section-products" id="productos">
+        <div class="container">
+            
+            <div class="section-header reveal">
+                <span class="badge-blue">Nuestros Suplementos</span>
+                <h2>Cuidado Premium para tu Rendimiento Diario</h2>
+                <p>Formula basadas en evidencia científica, de alta solubilidad y con aminoácidos añadidos  , pensadas para cubrir las demandas específicas de nutrición después de los 40 años.</p>
+            </div>
+
+            <div class="products-grid">
+                
+                <!-- PRODUCTO 1: PROTEÍNA -->
+                <div class="product-card blue-theme reveal">
+                    <div class="product-image-container">
+                        <img src="assets/images/protein_new_age.jpg" alt="Envase premium de Whey Proteína New Age" class="product-img">
+                    </div>
+                    
+                    <div class="product-info">
+                        <div class="product-meta">
+                            <span class="badge-blue">Mas vendido</span>
+                            <span class="product-subtitle" style="margin-bottom: 0;">Sabor Vainilla Premium (1.2 Kg)</span>
+                        </div>
+                        <h3 class="product-title">Proteína New Age</h3>
+                        <p class="product-subtitle">Nutrición muscular avanzada para adultos y adultos mayores.</p>
+                        
+                        <!-- Pestañas Interactivas -->
+                        <div class="product-tabs-wrapper">
+                            <div class="product-tabs-header">
+                                <button class="tab-btn active" data-tab="beneficios-prot">Beneficios</button>
+                                <button class="tab-btn" data-tab="uso-prot">Modo de Uso</button>
+                                <button class="tab-btn" data-tab="nutri-prot">Aporte Nutricional</button>
+                            </div>
+                            
+                            <div class="tab-content">
+                                <!-- Panel Beneficios -->
+                                <div class="tab-pane active" data-pane="beneficios-prot">
+                                    <ul class="benefits-list">
+                                        <li>
+                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                            Mantiene masa muscular
+                                        </li>
+                                        <li>
+                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                            Fácil digestión 
+                                        </li>
+                                        <li>
+                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                            Alta concentración proteica
+                                        </li>
+                                        <li>
+                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                            Recupera tejidos rápidos
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                <!-- Panel Modo de Uso -->
+                                <div class="tab-pane" data-pane="uso-prot">
+                                    <p class="usage-text">Mezclar 1 porción (1 scoop / 46g) con 250ml de agua o leche. Batir enérgicamente hasta disolver completamente. Consumir inmediatamente después de realizar actividad física, o en cualquier momento del día para complementar la ingesta proteica diaria.</p>
+                                </div>
+                                
+                                <!-- Panel Nutrición -->
+                                <div class="tab-pane" data-pane="nutri-prot">
+                                    <div class="nutrition-grid">
+                                        <div class="nutrition-item">
+                                            <div class="nutrition-val">18g</div>
+                                            <div class="nutrition-lbl">Proteína</div>
+                                        </div>
+                                        <div class="nutrition-item">
+                                            <div class="nutrition-val">1.4g</div>
+                                            <div class="nutrition-lbl">Leucina</div>
+                                        </div>
+                                        <div class="nutrition-item">
+                                            <div class="nutrition-val">4g</div>
+                                            <div class="nutrition-lbl">BCAA</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Footer de la tarjeta con precio y CTA -->
+                        <div class="product-footer">
+                            <div class="price-box">
+                                <span>Precio</span>
+                                <div class="price">$40.000</div>
+                            </div>
+                            <div class="product-actions">
+                                <button class="btn-icon-only view-product-btn" data-id="proteina" aria-label="Ver detalles de Proteína">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                        <circle cx="12" cy="12" r="3"></circle>
+                                    </svg>
+                                </button>
+                                <button class="btn btn-primary-blue add-to-cart-btn" data-id="proteina">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PRODUCTO 2: CREATINA -->
+                <div class="product-card green-theme reveal">
+                    <div class="product-image-container">
+                        <img src="assets/images/creatine_new_age.jpg" alt="Envase premium de Creatina Micronizada New Age" class="product-img">
+                    </div>
+                    
+                    <div class="product-info">
+                        <div class="product-meta">
+                            <span class="badge-green">Recomendada por doctores</span>
+                            <span class="product-subtitle" style="margin-bottom: 0;">Sabor Neutro (300g)</span>
+                        </div>
+                        <h3 class="product-title">Creatina New Age</h3>
+                        <p class="product-subtitle">Creatina monohidratada micronizada de alta pureza científica.</p>
+                        
+                        <!-- Pestañas Interactivas -->
+                        <div class="product-tabs-wrapper">
+                            <div class="product-tabs-header">
+                                <button class="tab-btn active" data-tab="beneficios-crea">Beneficios</button>
+                                <button class="tab-btn" data-tab="uso-crea">Modo de Uso</button>
+                                <button class="tab-btn" data-tab="nutri-crea">Aporte Nutricional</button>
+                            </div>
+                            
+                            <div class="tab-content">
+                                <!-- Panel Beneficios -->
+                                <div class="tab-pane active" data-pane="beneficios-crea">
+                                    <ul class="benefits-list">
+                                        <li>
+                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                            Aumento de fuerza real
+                                        </li>
+                                        <li>
+                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                            Energía muscular directa
+                                        </li>
+                                        <li>
+                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                            Apoyo cognitivo y mental
+                                        </li>
+                                        <li>
+                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                            Aumenta la energía diaria
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                <!-- Panel Modo de Uso -->
+                                <div class="tab-pane" data-pane="uso-crea">
+                                    <p class="usage-text">Consumir una porción diaria (1 scoop / 5g) disuelta en agua, jugo de frutas o añadida a tu batido de proteína. Se recomienda consumirla de forma constante todos los días a la misma hora para saturar los depósitos intramusculares.</p>
+                                </div>
+                                
+                                <!-- Panel Nutrición -->
+                                <div class="tab-pane" data-pane="nutri-crea">
+                                    <div class="nutrition-grid">
+                                        <div class="nutrition-item">
+                                            <div class="nutrition-val">5000mg</div>
+                                            <div class="nutrition-lbl">Monohidrato</div>
+                                        </div>
+                                        <div class="nutrition-item">
+                                            <div class="nutrition-val">100%</div>
+                                            <div class="nutrition-lbl">Pureza</div>
+                                        </div>
+                                        <div class="nutrition-item">
+                                            <div class="nutrition-val">0g</div>
+                                            <div class="nutrition-lbl">Azúcares</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Footer de la tarjeta con precio y CTA -->
+                        <div class="product-footer">
+                            <div class="price-box">
+                                <span>Precio</span>
+                                <div class="price">$20.000</div>
+                            </div>
+                            <div class="product-actions">
+                                <button class="btn-icon-only view-product-btn" data-id="creatina" aria-label="Ver detalles de Creatina">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                        <circle cx="12" cy="12" r="3"></circle>
+                                    </svg>
+                                </button>
+                                <button class="btn btn-primary-green add-to-cart-btn" data-id="creatina">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------------------------------------------------------------------
+         SECCIÓN POR QUÉ NEW AGE (CIENCIA Y PREVENCIÓN)
+         ---------------------------------------------------------------------- -->
+    <section class="section-why" id="nosotros">
+        <div class="container">
+            <div class="why-grid">
+                
+                <!-- Beneficios / Textos -->
+                <div class="why-content reveal">
+                    <span class="badge-green">El Enfoque Científico</span>
+                    <h2>Fórmulas de alta pureza pensadas en el Envejecimiento Activo</h2>
+                    <p>Con el paso de los años, nuestro cuerpo cambia y requiere nutrientes con mayor biodisponibilidad y de digestión noble. En New Age nos enfocamos en proporcionar la dosis exacta requerida para proteger tus músculos y mantenerte fuerte y vital.</p>
+                    
+                    <div class="why-badge-grid">
+                        
+                        <!-- Ventaja 1 -->
+                        <div class="why-card">
+                            <div class="why-card-icon blue-bg">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2.5 3.19-2.5 5.5h20c0-2.31-1-4.24-2.5-5.5"></path><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z"></path><path d="M12 6v6l4 2"></path></svg>
+                            </div>
+                            <h3>Prevención de Sarcopenia</h3>
+                            <p>Combate de manera eficaz y segura la pérdida de fuerza y volumen muscular vinculada a la edad.</p>
+                        </div>
+
+                        <!-- Ventaja 2 -->
+                        <div class="why-card">
+                            <div class="why-card-icon green-bg">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                            </div>
+                            <h3>Aminoácidos Esenciales</h3>
+                            <p>Cargados con un perfil completo de aminoácidos esenciales que favorecen la síntesis proteica, la fuerza y la conservación de la musculatura.</p>
+                        </div>
+
+                        <!-- Ventaja 3 -->
+                        <div class="why-card">
+                            <div class="why-card-icon green-bg">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                            </div>
+                            <h3>Certificada po HACCP</h3>
+                            <p>certificación HACCP (Análisis de Peligros y Puntos Críticos de Control) es una validación internacional que demuestra que una empresa de alimentos identifica, evalúa y controla proactivamente los riesgos físicos, químicos y biológicos para garantizar la inocuidad alimentaria.</p>
+                        </div>
+
+                        <!-- Ventaja 4 -->
+                        <div class="why-card">
+                            <div class="why-card-icon blue-bg">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                            </div>
+                            <h3>Fórmula Inteligente</h3>
+                            <p>Suplemento reforzado con Calcio y Vitamina D para dar soporte óseo simultáneo.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Ilustración / Gráficos de Métricas de Salud -->
+                <div class="why-illustration reveal">
+                    <span class="badge-blue sci-badge">Ciencia Médica</span>
+                    <h3>Beneficios en el Mediano Plazo</h3>
+                    <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 2rem;">Estudios clínicos sobre adultos mayores suplementados constantemente con proteína de alta absorción y creatina monohidrato demuestran mejoras significativas en 8 semanas:</p>
+                    
+                    <div class="health-metrics-list">
+                        
+                        <!-- Métrica 1 -->
+                        <div class="metric-row">
+                            <div class="metric-info">
+                                <span>Retención Muscular y Fuerza</span>
+                                <span>+92%</span>
+                            </div>
+                            <div class="metric-bar-bg">
+                                <div class="metric-bar-fill blue-fill"></div>
+                            </div>
+                        </div>
+
+                        <!-- Métrica 2 -->
+                        <div class="metric-row">
+                            <div class="metric-info">
+                                <span>Energía Diaria y Movilidad</span>
+                                <span>+85%</span>
+                            </div>
+                            <div class="metric-bar-bg">
+                                <div class="metric-bar-fill green-fill"></div>
+                            </div>
+                        </div>
+
+                        <!-- Métrica 3 -->
+                        <div class="metric-row">
+                            <div class="metric-info">
+                                <span>Digestión Ligera e Intestinal</span>
+                                <span>100% Noble</span>
+                            </div>
+                            <div class="metric-bar-bg">
+                                <div class="metric-bar-fill orange-fill"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------------------------------------------------------------------
+         SECCIÓN DE TESTIMONIOS (CASOS DE ÉXITO)
+         ---------------------------------------------------------------------- -->
+    <section class="section-testimonials" id="testimonios">
+        <div class="container">
+            
+            <div class="section-header reveal">
+                <span class="badge-blue">Testimonios de Confianza</span>
+                <h2>Historias de Personas Activas y Fuertes</h2>
+                <p>Descubre cómo nuestros clientes en Chile han recuperado su energía, vitalidad y calidad de vida diaria.</p>
+            </div>
+
+            <div class="testimonials-grid">
+                
+                <!-- Testimonio 1 -->
+                <div class="testimonial-card reveal">
+                    <div class="stars" aria-label="Calificación 5 estrellas">
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    </div>
+                    <p class="testimonial-text">"A mis 61 años, competir en remo de alto nivel exige una recuperación implacable. Gracias a la Proteína New Age he podido rendir mucho mejor tanto en el deporte como en mi día a día; me siento con muchísima más energía, fuerza y vitalidad."</p>
+                    <div class="testimonial-user">
+                        <!-- Avatar estilizado en CSS -->
+                        <div class="user-avatar" style="background-color: var(--color-blue-primary); display: flex; align-items: center; justify-content: center; color: white; font-weight: 700;">VR</div>
+                        <div class="user-info">
+                            <h4>Viviana Rivas</h4>
+                            <p>61 años | Campeona Nacional de Remo</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonio 2 -->
+                <div class="testimonial-card reveal">
+                    <div class="stars" aria-label="Calificación 5 estrellas">
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    </div>
+                    <p class="testimonial-text">"Tenia debilidad al levantarme y me costaba subir las escaleras del segundo piso. Mi doctor me recomendó tomar Proteína. Compré el Pack New Age y la diferencia de energía es increible. Muchas gracias"</p>
+                    <div class="testimonial-user">
+                        <div class="user-avatar" style="background-color: var(--color-green-primary); display: flex; align-items: center; justify-content: center; color: white; font-weight: 700;">YR</div>
+                        <div class="user-info">
+                            <h4>Yorka Rivas</h4>
+                            <p>75 años | Adulta Mayor Activa</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonio 3 -->
+                <div class="testimonial-card reveal">
+                    <div class="stars" aria-label="Calificación 5 estrellas">
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    
+                    </div>
+                    <p class="testimonial-text">"Excelente atención, buen sabor."</p>
+                    <div class="testimonial-user">
+                        <div class="user-avatar" style="background-color: var(--color-blue-primary); display: flex; align-items: center; justify-content: center; color: white; font-weight: 700;">RN</div>
+                        <div class="user-info">
+                            <h4>Marco Naranjo</h4>
+                            <p>48 años | Consultor & Aficionado al Fitness</p>
+                        </div>
+                
+                    </div>
+                </div>
+                <!-- Testimonio 4 -->
+                <div class="testimonial-card reveal">
+                    <div class="stars" aria-label="Calificación 5 estrellas">
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    
+                    </div>
+                    <p class="testimonial-text">"Me siento con mas energía y fuerza para seguir jugando futbol en el colegio de mis hijos"</p>
+                    <div class="testimonial-user">
+                        <div class="user-avatar" style="background-color: var(--color-blue-primary); display: flex; align-items: center; justify-content: center; color: white; font-weight: 700;">DP</div>
+                        <div class="user-info">
+                            <h4>Diego Pilasi</h4>
+                            <p>56 años</p>
+                        </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------------------------------------------------------------------
+         SECCIÓN EDUCATIVA (BLOQUES TIPO BLOG)
+         ---------------------------------------------------------------------- -->
+    <section class="section-education" id="educacion">
+        <div class="container">
+            
+            <div class="section-header reveal">
+                <span class="badge-green">Evidencia en Salud</span>
+                <h2>Información de Valor para tu Bienestar</h2>
+                <p>Artículos científicos redactados de forma clara para que conozcas la importancia de una correcta suplementación alimenticia en las distintas etapas de la vida.</p>
+            </div>
+
+            <div class="blog-grid">
+                
+                <!-- Artículo 1 -->
+                <article class="blog-card reveal">
+                    <div class="blog-img-container">
+                        <!-- Icono SVG representativo de salud muscular -->
+                        <img src="img/Actividad fisica.png" alt="Adulto mayor entrenando">
+                        <div class="blog-img-overlay">  
+                            <span class="badge-blue">Músculo</span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">21 de Mayo, 2026</span>
+                        <h3 class="blog-title">Ejercicio físico y nutrición en adultos mayores</h3>
+                        <p class="blog-excerpt">Este artículo analiza cómo el envejecimiento se asocia a una pérdida progresiva de masa y fuerza muscular (sarcopenia), lo que impacta directamente en la funcionalidad y la independencia del adulto mayor. Se destaca el rol fundamental del ejercicio físico, especialmente el entrenamiento de fuerza, junto con una adecuada ingesta de proteínas y nutrientes esenciales, como estrategias clave para prevenir o retrasar el deterioro funcional y mejorar la calidad de vida.</p>
+                        <a href="https://g-se.com/es/ejercicio-fisico-y-nutricion-en-adultos-mayores-una-poblacion-descuidada" class="blog-link" target="_blank" rel="noopener">
+                            Leer artículo completo
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Artículo 2 -->
+                <article class="blog-card reveal">
+                    <div class="blog-img-container">
+                        <!-- Icono SVG representativo de energía mental -->
+                         <img src="C:\Users\tomas\.gemini\antigravity\scratch\new-age-web\img\Diseño sin título (15).png" alt="Adulto mayor entrenando">
+                        <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a3 3 0 00-3-3H9.75m3 3h.008v.008H12.75V13.5m3 6v-1.5m-9-3h.008v.008H6.75V15.5M6.75 6.75h.008v.008H6.75V6.75zm10.5 0h.008v.008H17.25V6.75zM4 18c0-2.21 1.79-4 4-4h8c2.21 0 4 1.79 4 4v2H4v-2z"></path></svg>
+                        <div class="blog-img-overlay">
+                            <span class="badge-green">Nutrición</span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">14 de Mayo, 2026</span>
+                        <h3 class="blog-title">El eterno debate sobre las proteínas, ¿cuántas necesitamos y cuánto es demasiado?</h3>
+                        <p class="blog-excerpt">Durante años se ha considerado que 0,8 g/kg/día de proteína es suficiente. Sin embargo, esa cifra corresponde al mínimo para evitar deficiencias, no necesariamente a la cantidad óptima para preservar masa muscular en adultos mayores. La evidencia actual indica que en personas mayores, especialmente moderadamente activas o sedentarias, una ingesta entre 1,2 y 1,6 g/kg/día puede ser más adecuada para mantener masa muscular y funcionalidad. Además, debido a la llamada resistencia anabólica, el músculo del adulto mayor responde menos a pequeñas dosis de proteína, lo que hace relevante distribuir cantidades suficientes en cada comida. La nutrición proteica adecuada es un factor clave en el envejecimiento saludable.</p>
+                        <a href="https://fissac.com/el-eterno-debate-sobre-las-proteinas-cuantas-necesitamos-y-cuanto-es-demasiado/" class="blog-link" target="_blank" rel="noopener">
+                            Leer artículo completo
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Artículo 3 -->
+                <article class="blog-card reveal">
+                    <div class="blog-img-container">
+                        <!-- Icono SVG representativo de longevidad -->
+                         <img src="C:\Users\tomas\.gemini\antigravity\scratch\new-age-web\img\Diseño sin título (16).png" alt="Adulto mayor entrenando">
+                        <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z"></path></svg>
+                        <div class="blog-img-overlay">
+                            <span class="badge-blue">Ciencia</span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">07 de Mayo, 2026</span>
+                        <h3 class="blog-title">Creatina, ¿un aliado para tu cerebro?</h3>
+                        <p class="blog-excerpt">Aunque su fama comenzó en el mundo del deporte, la creatina se ha convertido ya en uno de los suplementos más consumidos por la población debido a sus beneficios sobre la salud. Y aunque sus efectos más conocidos son a nivel muscular, cada vez más evidencia muestra que podría ejercer beneficios en otro de los órganos más importantes: el cerebro.</p>
+                        <a href="https://fissac.com/creatina-un-aliado-para-tu-cerebro/" class="blog-link" target="_blank" rel="noopener">
+                            Leer artículo completo
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------------------------------------------------------------------
+         FOOTER (PIE DE PÁGINA)
+         ---------------------------------------------------------------------- -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                
+                <!-- Marca -->
+                <div class="footer-brand">
+                    <h3 class="logo footer-logo">NEW AGE<span>.</span></h3>
+                    <p>Nutrición basada en evidencia y de alto nivel formulada especialmente para adultos y adultos mayores que buscan un envejecimiento activo, bienestar físico y una excelente calidad de vida diaria en Chile.</p>
+                    
+                    <!-- Enlaces Sociales -->
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/suplementonewage" class="social-btn" target="_blank" rel="noopener" aria-label="Facebook">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                        </a>
+                        <a href="https://www.instagram.com/suplementonewage" class="social-btn" target="_blank" rel="noopener" aria-label="Instagram">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        </a>
+                        <a href="https://wa.me/56928498190" class="social-btn" target="_blank" rel="noopener" aria-label="WhatsApp">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Enlaces rápidos -->
+                <div class="footer-links">
+                    <h4>Navegación</h4>
+                    <ul class="footer-menu">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#productos">Suplementos</a></li>
+                        <li><a href="#nosotros">Por qué New Age</a></li>
+                        <li><a href="#testimonios">Testimonios</a></li>
+                        <li><a href="#educacion">Artículos Educativos</a></li>
+                    </ul>
+                </div>
+
+                <!-- Datos de Contacto -->
+                <div class="footer-contact">
+                    <h4>Contacto en Chile</h4>
+                    <ul class="contact-list">
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            <span>WhatsApp: +56 9 2849 8190</span>
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            <span>Correo: newagesuplemento@gmail.com</span>
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                            <span>Web: <a href="http://www.newagefood.cl" target="_blank" rel="noopener">www.newagefood.cl</a></span>
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 0 0-10 10c0 5.25 10 12 10 12s10-6.75 10-12a10 10 0 0 0-10-10z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            <span>Santiago, Chile (Despacho Nacional)</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 New Age Nutrition SpA. Todos los derechos reservados.</p>
+                <p>Sitio optimizado y diseñado para adultos mayores activos.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ----------------------------------------------------------------------
+         CARRITO DE COMPRAS FLOTANTE (SIDE DRAWER)
+         ---------------------------------------------------------------------- -->
+    <div class="cart-backdrop" id="cart-backdrop">
+        <div class="cart-drawer">
+            <!-- Encabezado del Carrito -->
+            <div class="cart-header">
+                <h3>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="9" cy="21" r="1"></circle>
+                        <circle cx="20" cy="21" r="1"></circle>
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                    </svg>
+                    Tu Carrito de Compra
+                </h3>
+                <button class="cart-close" id="cart-close" aria-label="Cerrar Carrito">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                </button>
+            </div>
+
+            <!-- Listado de Artículos -->
+            <div class="cart-body" id="cart-items-container">
+                <!-- Se inyecta dinámicamente desde JS -->
+            </div>
+
+            <!-- Resumen y Checkout -->
+            <div class="cart-footer" id="cart-footer" style="display: none;">
+                <div class="cart-total-row">
+                    <span>Subtotal estimado:</span>
+                    <span id="cart-total">$0</span>
+                </div>
+                
+                <button class="btn cart-checkout-btn" id="cart-checkout">
+                    <!-- Icono WhatsApp -->
+                    <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.457L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.965C16.528 2.01 14.069.993 11.5.992c-5.441 0-9.87 4.372-9.874 9.802-.001 1.77.47 3.491 1.365 5.021L2.012 21.8l6.16-1.602c1.558.85 3.09 1.288 4.475 1.288zM17.8 14.19c-.318-.16-1.88-.93-2.17-1.035-.29-.105-.503-.16-.713.16-.21.32-.813 1.035-.996 1.25-.183.21-.366.24-.684.08-.318-.16-1.343-.5-2.558-1.595-.945-.85-1.583-1.9-1.768-2.218-.185-.32-.02-.492.14-.65.143-.142.317-.37.476-.554.16-.184.21-.318.318-.53.107-.21.054-.397-.027-.557-.08-.16-.713-1.727-.978-2.368-.258-.624-.52-.54-.713-.55-.184-.01-.397-.01-.61-.01-.212 0-.557.08-.85.4-.293.32-1.12 1.1-1.12 2.678 0 1.578 1.147 3.1 1.306 3.32.16.22 2.257 3.475 5.467 4.872.763.332 1.36.53 1.826.68.767.246 1.465.21 2.017.13.615-.09 1.88-.77 2.146-1.474.266-.705.266-1.309.186-1.436-.079-.12-.292-.19-.61-.35z"></path>
+                    </svg>
+                    Finalizar Pedido por WhatsApp
+                </button>
+                <div class="cart-shipping-notice">📌 Despachos rápidos y transferencias 100% seguras en todo Chile.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------------------------------------------------
+         MODAL DETALLE EXTENDIDO DE PRODUCTO
+         ---------------------------------------------------------------------- -->
+    <div class="modal-backdrop" id="product-modal-backdrop">
+        <div class="product-modal" id="product-modal">
+            
+            <!-- Botón Cerrar Modal -->
+            <button class="modal-close-btn" id="modal-close" aria-label="Cerrar Modal">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+
+            <!-- Grid de Contenido -->
+            <div class="modal-content-grid">
+                
+                <!-- Columna Izquierda: Imagen de estudio -->
+                <div class="modal-image-pane">
+                    <img src="" alt="" id="modal-img" class="modal-product-img">
+                </div>
+
+                <!-- Columna Derecha: Detalles -->
+                <div class="modal-info-pane">
+                    <h3 class="modal-product-title" id="modal-title"></h3>
+                    <p class="modal-product-subtitle" id="modal-subtitle"></p>
+                    <p class="modal-product-desc" id="modal-desc"></p>
+                    
+                    <!-- Tabla de Aporte Nutricional Completo -->
+                    <table class="nutritional-table" id="modal-nutrition-table">
+                        <!-- Se llena dinámicamente -->
+                    </table>
+
+                    <!-- Caja de Compra Interna -->
+                    <div class="product-footer" id="modal-action-container" style="border-top: none; padding-top: 0;">
+                        <!-- Se inyecta dinámicamente -->
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ----------------------------------------------------------------------
+         BOTÓN FLOTANTE DE WHATSAPP / CONTACTO RÁPIDO
+         ---------------------------------------------------------------------- -->
+    <div class="whatsapp-float-container">
+        <!-- Mensaje burbuja hover -->
+        <span class="whatsapp-bubble-msg">¿Tienes dudas sobre qué tomar? Chatea con nosotros</span>
+        
+        <a href="https://wa.me/56928498190?text=Hola%20New%20Age%2C%20quisiera%20hacer%20algunas%20consultas%20sobre%20sus%20suplementos%20nutricionales." class="whatsapp-float-btn" target="_blank" rel="noopener" aria-label="Contacto por WhatsApp">
+            <!-- Icono WhatsApp -->
+            <svg width="32" height="32" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.457L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.965C16.528 2.01 14.069.993 11.5.992c-5.441 0-9.87 4.372-9.874 9.802-.001 1.77.47 3.491 1.365 5.021L2.012 21.8l6.16-1.602c1.558.85 3.09 1.288 4.475 1.288zM17.8 14.19c-.318-.16-1.88-.93-2.17-1.035-.29-.105-.503-.16-.713.16-.21.32-.813 1.035-.996 1.25-.183.21-.366.24-.684.08-.318-.16-1.343-.5-2.558-1.595-.945-.85-1.583-1.9-1.768-2.218-.185-.32-.02-.492.14-.65.143-.142.317-.37.476-.554.16-.184.21-.318.318-.53.107-.21.054-.397-.027-.557-.08-.16-.713-1.727-.978-2.368-.258-.624-.52-.54-.713-.55-.184-.01-.397-.01-.61-.01-.212 0-.557.08-.85.4-.293.32-1.12 1.1-1.12 2.678 0 1.578 1.147 3.1 1.306 3.32.16.22 2.257 3.475 5.467 4.872.763.332 1.36.53 1.826.68.767.246 1.465.21 2.017.13.615-.09 1.88-.77 2.146-1.474.266-.705.266-1.309.186-1.436-.079-.12-.292-.19-.61-.35z"></path>
+            </svg>
+            <span class="whatsapp-ping"></span>
+        </a>
+    </div>
+
+    <!-- Script de la Aplicación -->
+    <script src="js/app.js"></script>
+</body>
+</html>
